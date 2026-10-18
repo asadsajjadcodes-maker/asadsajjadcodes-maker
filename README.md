@@ -2,14 +2,14 @@
 
 # Hi, I'm Asad Sajjad 👋
 
-### Python Developer in Training · Automation · Desktop Applications · Machine Learning
+### Python Automation Developer · PySide6 Desktop Applications · Data & ML Pipelines
 
-I build practical Python tools that turn repetitive file and data workflows into simpler, more reliable processes.
+I build reliable Python automation tools and responsive **PySide6 (Qt)** desktop applications that turn repetitive file, media, and data workflows into clean, one-click processes.
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PySide6](https://img.shields.io/badge/PySide6-Qt_for_Python-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/)
+[![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Git](https://img.shields.io/badge/Git-%26_GitHub_Actions-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
 </div>
 
@@ -17,88 +17,79 @@ I build practical Python tools that turn repetitive file and data workflows into
 
 ## 👨‍💻 About Me
 
-I'm a Python developer building my skills through hands-on projects, consistent practice, and structured learning. My main focus is **automation, file-system workflows, and desktop utilities**. I'm also working through the foundations of machine learning.
+I engineer modular Python utilities, command-line pipelines, and desktop GUI applications with a strong focus on **safety, responsiveness, and observability**—using background worker threads (`QThread`), pre-execution dry-run validation, defensive error handling, and multi-channel logging (`GUI`, `FileHandler`, and `StreamHandler`).
 
-I like projects that solve concrete problems and help me practise maintainable code: splitting applications into modules, validating inputs, handling errors, and using logging to understand what an application is doing.
-
-- 🐍 **Primary language:** Python
-- 🧰 **Main interests:** workflow automation, file processing, desktop applications, and pipeline tools
-- 🖥️ **GUI development:** PySide6 / Qt
-- 🧠 **Currently learning:** machine learning fundamentals and model evaluation
-- 📈 **Approach:** learn a concept, build with it, test it, document it, and improve it
-
-## 🚀 Featured Projects
-
-### 1. [CSV Manifest Generator](https://github.com/asadsajjadcodes-maker/csv_manifest_generator)
-A PySide6 desktop application for inspecting directory trees and exporting structured file inventories.
-
-- Recursively scans folders and extracts file metadata.
-- Filters results by file extension.
-- Uses a background worker so longer scans do not have to block the interface.
-- Exports results to CSV and provides console, file, and GUI logging.
-
-**Built with:** Python · PySide6 · `pathlib` · `csv` · `logging` · Qt threads and signals
-
-### 2. [File Batch Renamer](https://github.com/asadsajjadcodes-maker/file_batch_renamer)
-A desktop utility for preparing and performing consistent batch file renames.
-
-- Scans and sorts files before creating a rename plan.
-- Previews proposed names before changes are applied.
-- Validates the plan to help catch conflicts and unsafe operations.
-- Separates scanning, name cleaning, planning, validation, execution, and logging into modules.
-
-**Built with:** Python · PySide6 · `pathlib` · modular application design · logging
-
-### 3. [Python Pipeline Core](https://github.com/asadsajjadcodes-maker/python_pipeline_core)
-A project-based journey into Python automation and reusable pipeline components, progressing from file handling fundamentals to modular tools.
-
-- Works with paths, directories, JSON configuration, and batch file processing.
-- Practises exception handling and reusable loader/saver functions.
-- Includes command-line workflows, structured logging, and report generation.
-- Explores desktop interfaces for media inspection and asset organization.
-
-**Built with:** Python · `pathlib` · `json` · `argparse` · `logging` · PySide6
-
-### 4. [ML Local AI Automation Lab](https://github.com/asadsajjadcodes-maker/ml-local-ai-automation-lab)
-A code-first learning repository documenting my progress through machine learning foundations.
-
-- Implements small experiments with model weights, predictions, and loss.
-- Practises linear regression and gradient descent.
-- Explores NumPy, multiple features, feature scaling, and train/test evaluation.
-- Studies overfitting, underfitting, and selecting a model using validation results.
-
-**Built with:** Python · NumPy · machine learning fundamentals
-
-### 5. [Python Beginner Programs](https://github.com/asadsajjadcodes-maker/python-beginner-programs)
-A collection of small programs and mini-projects that document my early Python practice, including functions, loops, problem-solving, file handling, and simple games.
-
-### 6. [To-Do List Python App](https://github.com/asadsajjadcodes-maker/Todo_list_python_app)
-An early command-line task manager for adding, viewing, and deleting tasks, with data saved to a text file. It represents my early practice with loops, conditions, user input, and file handling.
+- 🐍 **Core Stack:** Python, PySide6 (Qt), `pathlib`, `csv`, `json`, `argparse`, `logging`, `NumPy`
+- 🖥️ **Desktop GUI Engineering:** Non-blocking `QThread` background workers, custom Qt Stylesheets (QSS), and live `Signal(str)` log consoles
+- ⚙️ **Workflow Automation:** Recursive directory auditing, bulk file renaming & sanitization, media asset organization, and high-volume JSON/CSV batch pipelines
+- 🧠 **Machine Learning & Data:** Vectorized numerical computing with NumPy, regression modeling from first principles, feature scaling, leak-free train/test workflows, and evaluation metrics
 
 ---
 
-## 🛠️ Skills & Tools
+## 🚀 Featured Repositories
 
-| Area | Technologies and concepts |
-|---|---|
-| **Programming** | Python, functions, modules, data structures, error handling |
-| **Automation & files** | `pathlib`, directory traversal, batch operations, path validation |
-| **Data & configuration** | JSON, CSV, file metadata, structured data processing |
-| **Desktop apps** | PySide6, Qt widgets, signals and slots, background workers |
-| **Diagnostics** | Python `logging`, console/file/GUI handlers |
-| **Command line** | `argparse`, reusable scripts, dry-run and preview workflows |
-| **Machine learning foundations** | NumPy, linear regression, gradient descent, feature scaling, train/test splits, model evaluation |
-| **Developer tools** | Git, GitHub, VS Code |
+### 1. [CSV Manifest Generator](https://github.com/asadsajjadcodes-maker/csv_manifest_generator)
+**Responsive PySide6 Desktop File-System Auditing & CSV Inventory Tool**
+- Recursively audits directory trees using `pathlib` and extracts structured OS metadata (`Filename`, `Extension`, `Parent_Folder`, `Size_MB`, `Last_Modified`, `Full_Path`).
+- Executes scans inside a background `QThread` worker (`ScanWorker`) with real-time progress signals and mid-scan cancellation so the GUI never freezes.
+- Routes runtime diagnostics simultaneously to the PySide6 log panel, console, and `logs/app.log`, and exports clean reports via `csv.DictWriter`.
 
-## 🎯 What I'm Working Toward
+**Tech:** `Python` · `PySide6` · `QThread & Signals` · `pathlib` · `csv` · `logging`
 
-My goal is to become a dependable Python developer who can design and deliver useful automation tools, desktop applications, and pipeline utilities. I'm building that foundation project by project, while expanding my understanding of machine learning and AI engineering.
+---
 
-I'm especially interested in practical problems involving **file and data processing, repetitive workflow automation, asset management, and internal desktop tools**.
+### 2. [File Batch Renamer](https://github.com/asadsajjadcodes-maker/file_batch_renamer)
+**Safe Desktop Bulk File Renaming & Sanitization Utility with CI/CD Packaging**
+- Implements a strict **Scan → Plan → Validate → Preview → Execute** workflow for bulk file renaming with 3-digit zero-padded indexing (`<prefix>_001.ext`).
+- Includes regex filename sanitization (`cleaner.py`), dry-run GUI console previews, and pre-execution collision checks (`validator.py`) to prevent accidental overwrites.
+- Packaged as a standalone Windows executable via an automated **GitHub Actions + PyInstaller** workflow.
 
-## 🤝 Connect & Explore
+**Tech:** `Python` · `PySide6` · `pathlib` · `re` · `logging` · `GitHub Actions` · `PyInstaller`
 
-- **GitHub profile:** [asadsajjadcodes-maker](https://github.com/asadsajjadcodes-maker)
-- **Browse my repositories:** [All projects](https://github.com/asadsajjadcodes-maker?tab=repositories)
+---
 
-Thanks for visiting. I'm learning by building, and improving one project at a time.
+### 3. [Python Pipeline Core & Pro Media Asset Manager](https://github.com/asadsajjadcodes-maker/python_pipeline_core)
+**39-Lesson Automation Engineering Suite, 10k+ Batch Auditor & QSS-Styled Desktop Organizer**
+- Features **Pro Media Asset Manager** (`media_organizer/`), a dark QSS-styled PySide6 desktop app that audits directories and automatically organizes files into category folders (`Images`, `Videos`, `Audio`, `Documents`, `Archives`, `Code`) without overwriting existing assets.
+- Includes a CLI batch JSON verification and telemetry engine (`day_27_pipeline_summary.py`) with `--dry-run` simulation and automated JSON summary reports.
+- Demonstrates custom Qt multiple-inheritance logging (`QObject` + `logging.Handler`) and defensive JSON loader/saver utilities.
+
+**Tech:** `Python` · `PySide6 (QSS)` · `pathlib` · `json` · `argparse` · `logging`
+
+---
+
+### 4. [Machine Learning → Deep Learning → AI Engineering Lab](https://github.com/asadsajjadcodes-maker/ml-local-ai-automation-lab)
+**Code-First Machine Learning & Numerical Computing Implementations from Scratch**
+- Implements univariate and multivariate linear regression, analytical gradient descent, and vectorized forward/backward passes using **Python** and **NumPy** array broadcasting.
+- Covers production ML hygiene including Z-score feature scaling, leak-free train/test split pipelines, overfitting diagnostics, model selection, and regression evaluation metrics (`MAE`, `MSE`, `RMSE`, $R^2$).
+
+**Tech:** `Python` · `NumPy` · `Machine Learning` · `Numerical Computing`
+
+---
+
+### 5. [Python Foundations & Mini-Projects](https://github.com/asadsajjadcodes-maker/python-beginner-programs)
+A structured collection of 17 foundational Python scripts, interactive CLI games, text filters, and file-handling utilities.
+
+### 6. [CLI To-Do List Task Manager](https://github.com/asadsajjadcodes-maker/Todo_list_python_app)
+A lightweight command-line task management utility with persistent file storage for adding, viewing, and deleting tasks.
+
+---
+
+## 🛠️ Technical Skills Overview
+
+| Domain | Technologies & Engineering Practices |
+| :--- | :--- |
+| **Languages & Core** | Python 3.10+, Modular Architecture, Type Annotations, Exception Handling |
+| **Desktop GUI** | PySide6 (Qt for Python), `QThread` Concurrency, Qt Signals & Slots, Custom QSS Styling |
+| **File & OS Automation** | `pathlib`, Recursive Directory Traversal (`rglob`), Batch Renaming, Media Classification |
+| **Data & Serialization** | CSV Report Generation (`csv.DictWriter`), Defensive JSON Parsing (`json.load`/`dump`), Log Parsing |
+| **CLI & Diagnostics** | `argparse` CLI Tools, `--dry-run` Simulation Workflows, Multi-Handler `logging` (GUI/File/Console) |
+| **Machine Learning** | NumPy Vectorization, Linear Regression, Gradient Descent, Feature Scaling, Model Evaluation |
+| **DevOps & Tooling** | Git, GitHub Actions CI/CD, PyInstaller Executable Packaging, VS Code |
+
+---
+
+## 🤝 Connect With Me
+
+- **GitHub:** [@asadsajjadcodes-maker](https://github.com/asadsajjadcodes-maker)
+- **Upwork:** [Asad S. — Python Automation & PySide6 Developer](https://www.upwork.com/freelancers/~017ee2793979b471c3)
