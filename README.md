@@ -49,21 +49,21 @@ I engineer modular Python utilities, command-line pipelines, and desktop GUI app
 ---
 
 ### 3. [Python Pipeline Core & Pro Media Asset Manager](https://github.com/asadsajjadcodes-maker/python_pipeline_core)
-**39-Lesson Automation Engineering Suite, 10k+ Batch Auditor & QSS-Styled Desktop Organizer**
-- Features **Pro Media Asset Manager** (`media_organizer/`), a dark QSS-styled PySide6 desktop app that audits directories and automatically organizes files into category folders (`Images`, `Videos`, `Audio`, `Documents`, `Archives`, `Code`) without overwriting existing assets.
+**Python Automation Pipeline Scripts (`day_01`–`day_30`), 10k+ CLI Batch Auditor & QSS-Styled Desktop Organizer**
+- Progresses through 30 root automation scripts (`day_01_basics.py` to `day_30_gui_basics.py`), a modular scanner package (`day_29_modular/`), and the **Pro Media Asset Manager** (`media_organizer/`).
+- **Pro Media Asset Manager** (`media_organizer/`) is a dark QSS-styled PySide6 desktop app that audits directories and automatically organizes files into category folders (`Images`, `Videos`, `Audio`, `Documents`, `Archives`, `Code`) without overwriting existing assets.
 - Includes a CLI batch JSON verification and telemetry engine (`day_27_pipeline_summary.py`) with `--dry-run` simulation and automated JSON summary reports.
-- Demonstrates custom Qt multiple-inheritance logging (`QObject` + `logging.Handler`) and defensive JSON loader/saver utilities.
 
 **Tech:** `Python` · `PySide6 (QSS)` · `pathlib` · `json` · `argparse` · `logging`
 
 ---
 
 ### 4. [Machine Learning → Deep Learning → AI Engineering Lab](https://github.com/asadsajjadcodes-maker/ml-local-ai-automation-lab)
-**Code-First Machine Learning & Numerical Computing Implementations from Scratch**
-- Implements univariate and multivariate linear regression, analytical gradient descent, and vectorized forward/backward passes using **Python** and **NumPy** array broadcasting.
-- Covers production ML hygiene including Z-score feature scaling, leak-free train/test split pipelines, overfitting diagnostics, model selection, and regression evaluation metrics (`MAE`, `MSE`, `RMSE`, $R^2$).
+**Code-First Machine Learning & Numerical Computing Implementations**
+- Implements univariate and multivariate linear regression, analytical gradient descent, and vectorized forward/backward passes from scratch in **Python** and **NumPy** (Days 1–17).
+- Covers **Min-Max feature and target scaling**, leak-free train/validation/test split pipelines, overfitting vs. underfitting diagnostics, validation-based model selection, and regression evaluation metrics (**MAE, MSE, and RMSE** implemented from scratch in NumPy on Day 16 and evaluated with **`scikit-learn`'s `sklearn.metrics`** on Day 18).
 
-**Tech:** `Python` · `NumPy` · `Machine Learning` · `Numerical Computing`
+**Tech:** `Python` · `NumPy` · `Scikit-Learn` · `Machine Learning`
 
 ---
 
@@ -79,12 +79,12 @@ A lightweight command-line task management utility with persistent file storage 
 
 | Domain | Technologies & Engineering Practices |
 | :--- | :--- |
-| **Languages & Core** | Python 3.10+, Modular Architecture, Type Annotations, Exception Handling |
+| **Languages & Core** | Python 3.10+, Modular Code Organization, Functions & Data Structures, Exception Handling |
 | **Desktop GUI** | PySide6 (Qt for Python), `QThread` Concurrency, Qt Signals & Slots, Custom QSS Styling |
 | **File & OS Automation** | `pathlib`, Recursive Directory Traversal (`rglob`), Batch Renaming, Media Classification |
 | **Data & Serialization** | CSV Report Generation (`csv.DictWriter`), Defensive JSON Parsing (`json.load`/`dump`), Log Parsing |
 | **CLI & Diagnostics** | `argparse` CLI Tools, `--dry-run` Simulation Workflows, Multi-Handler `logging` (GUI/File/Console) |
-| **Machine Learning** | NumPy Vectorization, Linear Regression, Gradient Descent, Feature Scaling, Model Evaluation |
+| **Machine Learning** | NumPy Vectorization, Linear Regression, Gradient Descent, Min-Max Feature Scaling, `scikit-learn` Metrics (`MAE`, `MSE`, `RMSE`) |
 | **DevOps & Tooling** | Git, GitHub Actions CI/CD, PyInstaller Executable Packaging, VS Code |
 
 ---
